@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --icon-color: rgba(99, 102, 241, 0.08);
+}
+
+*:focus-visible {
+  outline: 4px solid #f63bb3;
+}
+
+body {
+  background-color: #f8fafc;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300' viewBox='0 0 300 300'%3E%3Cg fill='%236366f1' fill-opacity='0.06'%3E%3C!-- Book top-left area --%3E%3Cpath d='M25 20c0-1.5 1.2-3 3-3h12c1.8 0 3 1.5 3 3v18c0 1.5-1.2 3-3 3H28c-1.8 0-3-1.5-3-3V20zm3 1.5v15h12v-15H28zm1.5 3h9v1.5h-9v-1.5zm0 3h9v1.5h-9v-1.5zm0 3h6v1.5h-6v-1.5z'/%3E%3C!-- Pencil right side --%3E%3Cpath d='M230 35l6 6-18 18-6-6 18-18zm-19.5 19.5l6 6-3 9-9-3 6-12z'/%3E%3C!-- Graduation Cap bottom-right --%3E%3Cpath d='M240 200l22 10-22 10-22-10 22-10zm0 4.5l-13.5 6 13.5 6 13.5-6-13.5-6zm-3 12v9l3 1.5 3-1.5v-9'/%3E%3C!-- Lightbulb center --%3E%3Cpath d='M150 140a10 10 0 1 1 0 20 10 10 0 0 1 0-20zm0 3a7 7 0 1 0 0 14 7 7 0 0 0 0-14zm-3 18h6v3h-6v-3zm0 4.5h6v1.5h-6v-1.5z'/%3E%3C!-- Star left-center --%3E%3Cpath d='M55 145l3 6 7 1-5 5 1.2 7.5-6.2-3.3-6.2 3.3 1.2-7.5-5-5 7-1 3-6z'/%3E%3C!-- Question Mark top-right --%3E%3Cpath d='M270 55a9 9 0 0 1-4.5 15.75v2.25h-3v-4.5a6 6 0 1 0-6-6h-3a9 9 0 0 1 16.5-4.5zm-9 22.5a2.25 2.25 0 1 1 0 4.5 2.25 2.25 0 0 1 0-4.5z'/%3E%3C!-- Atom/Science bottom-left --%3E%3Ccircle cx='70' cy='250' r='3'/%3E%3Cellipse cx='70' cy='250' rx='12' ry='4.5' fill='none' stroke='%236366f1' stroke-opacity='0.06' stroke-width='1.5'/%3E%3Cellipse cx='70' cy='250' rx='12' ry='4.5' fill='none' stroke='%236366f1' stroke-opacity='0.06' stroke-width='1.5' transform='rotate(60 70 250)'/%3E%3Cellipse cx='70' cy='250' rx='12' ry='4.5' fill='none' stroke='%236366f1' stroke-opacity='0.06' stroke-width='1.5' transform='rotate(120 70 250)'/%3E%3C!-- ABC Letters center-right --%3E%3Ctext x='200' y='130' font-family='Georgia, serif' font-size='14' font-weight='bold'%3EAa%3C/text%3E%3C!-- Calculator bottom-center --%3E%3Crect x='140' y='250' width='20' height='26' rx='2' fill='none' stroke='%236366f1' stroke-opacity='0.06' stroke-width='2'/%3E%3Crect x='143' y='253' width='14' height='6' fill='%236366f1' fill-opacity='0.06'/%3E%3Ccircle cx='146' cy='264' r='1.5'/%3E%3Ccircle cx='150' cy='264' r='1.5'/%3E%3Ccircle cx='154' cy='264' r='1.5'/%3E%3Ccircle cx='146' cy='270' r='1.5'/%3E%3Ccircle cx='150' cy='270' r='1.5'/%3E%3Ccircle cx='154' cy='270' r='1.5'/%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: repeat;
+  min-height: 100vh;
+}
+
+#app-logo {
+  corner-shape: bevel;
+  border-top-right-radius: 48px;
+}
